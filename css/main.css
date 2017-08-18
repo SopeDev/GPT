@@ -795,6 +795,7 @@ nav.main-menu ul > .current-menu-item > a {
   text-decoration: none;
   background-color: #6ac335;
   color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .home-slider .slide-content .slider-button:hover {
   background-color: #3a3c41;
@@ -1076,6 +1077,7 @@ nav.main-menu ul > .current-menu-item > a {
   padding: 15px 30px;
   text-transform: uppercase;
   font-size: 16px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .home-features .features-intro .read-more:hover {
   background-color: #3a3c41;
