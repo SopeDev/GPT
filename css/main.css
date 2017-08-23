@@ -1652,7 +1652,7 @@ a#scroll-top:hover {
 /*------------------------------------------------------*/
 .doctors-posts {
   padding-top: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   /* Doctor Social Icons */
 }
 .doctors-posts .text-left {
@@ -1665,6 +1665,9 @@ a#scroll-top:hover {
 .doctors-posts .common-doctor figure {
   overflow: hidden;
 }
+.doctors-posts .common-doctor figure img{
+  width: 100%;
+}
 .doctors-posts .common-doctor h5 {
   margin: 0 0 20px;
 }
@@ -1673,6 +1676,9 @@ a#scroll-top:hover {
 }
 .doctors-posts .common-doctor .for-border {
   margin-bottom: 20px;
+  background: none; 
+  border-bottom: 1px solid #ccc;
+  height: 0px;
 }
 .doctors-posts .common-doctor p {
   margin-bottom: 20px;
