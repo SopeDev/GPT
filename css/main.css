@@ -1775,6 +1775,13 @@ div.doctor-departments a:hover {
   color: #3a3c41;
   display: block;
 }
+.doctors-single .doc-schedule p:last-child {
+  text-decoration: underline;
+}
+.doctors-single .doc-schedule p:last-child i {
+  font-size: 20px;
+  margin-right: 15px;
+}
 .doctors-single .doc-schedule p strong {
   margin-right: 5%;
   color: #3a3c41;
